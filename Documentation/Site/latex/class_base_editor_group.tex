@@ -1,0 +1,135 @@
+\hypertarget{class_base_editor_group}{}\section{Base\+Editor\+Group Class Reference}
+\label{class_base_editor_group}\index{Base\+Editor\+Group@{Base\+Editor\+Group}}
+
+
+Base\+Class for a Editor Group. same as Panel but without a toggle state  
+
+
+Inheritance diagram for Base\+Editor\+Group\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_base_editor_group}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_base_editor_group_a53cc4ec2f041f1d72b0d6468bb930658}{Draw} ()
+\begin{DoxyCompactList}\small\item\em Draws the panel itself, not it\textquotesingle{}s content. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_base_editor_group_a8a41e2753ba3c316a1c7fe35ef21897c}{Draw\+Content} ()
+\begin{DoxyCompactList}\small\item\em Draws the content of the panel. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_base_editor_group_a2c80ae4df91e93e3d9a1e8e5ea134d7b}{On\+Scene\+UI} (Scene\+View \+\_\+scene\+View)
+\begin{DoxyCompactList}\small\item\em Used for drawing in the scene view. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_base_editor_group_a3cd9cee8a3c93fa0c59ad2dac854f367}{Input} (Scene\+View \+\_\+scene\+View)
+\begin{DoxyCompactList}\small\item\em Used for handling keyboard input. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_base_editor_group_adaf80fa090e685d7dcd1804f3eac10ca}{Add\+Event\+Listeners} (Scene\+View \+\_\+sceneview)
+\begin{DoxyCompactList}\small\item\em Adds the events used in this editor panel. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_base_editor_group_ad584907c5813f11cf979fd9fc80c70c8}{Remove\+Eventlisteners} (Scene\+View \+\_\+sceneview)
+\begin{DoxyCompactList}\small\item\em Removes the events used in this editor panel. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Editor\+Window \hyperlink{class_base_editor_group_ac811d2797fc68b5c51f34605228f0672}{parent\+Window}
+\begin{DoxyCompactList}\small\item\em The Editor Window this panel is in. \end{DoxyCompactList}\item 
+\hyperlink{class_v_m_e_settings_object}{V\+M\+E\+Settings\+Object} \hyperlink{class_base_editor_group_a8915a3a49694f1cfea5a17f9e6bccd16}{settings\+Object}
+\begin{DoxyCompactList}\small\item\em Reference to the Object that holds the editor settings. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Base\+Class for a Editor Group. same as Panel but without a toggle state 
+
+
+
+\subsection{Member Function Documentation}
+\index{Base\+Editor\+Group@{Base\+Editor\+Group}!Add\+Event\+Listeners@{Add\+Event\+Listeners}}
+\index{Add\+Event\+Listeners@{Add\+Event\+Listeners}!Base\+Editor\+Group@{Base\+Editor\+Group}}
+\subsubsection[{\texorpdfstring{Add\+Event\+Listeners(\+Scene\+View \+\_\+sceneview)}{AddEventListeners(SceneView _sceneview)}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Base\+Editor\+Group.\+Add\+Event\+Listeners (
+\begin{DoxyParamCaption}
+\item[{Scene\+View}]{\+\_\+sceneview}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_base_editor_group_adaf80fa090e685d7dcd1804f3eac10ca}{}\label{class_base_editor_group_adaf80fa090e685d7dcd1804f3eac10ca}
+
+
+Adds the events used in this editor panel. 
+
+\index{Base\+Editor\+Group@{Base\+Editor\+Group}!Draw@{Draw}}
+\index{Draw@{Draw}!Base\+Editor\+Group@{Base\+Editor\+Group}}
+\subsubsection[{\texorpdfstring{Draw()}{Draw()}}]{\setlength{\rightskip}{0pt plus 5cm}void Base\+Editor\+Group.\+Draw (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_base_editor_group_a53cc4ec2f041f1d72b0d6468bb930658}{}\label{class_base_editor_group_a53cc4ec2f041f1d72b0d6468bb930658}
+
+
+Draws the panel itself, not it\textquotesingle{}s content. 
+
+\index{Base\+Editor\+Group@{Base\+Editor\+Group}!Draw\+Content@{Draw\+Content}}
+\index{Draw\+Content@{Draw\+Content}!Base\+Editor\+Group@{Base\+Editor\+Group}}
+\subsubsection[{\texorpdfstring{Draw\+Content()}{DrawContent()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Base\+Editor\+Group.\+Draw\+Content (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_base_editor_group_a8a41e2753ba3c316a1c7fe35ef21897c}{}\label{class_base_editor_group_a8a41e2753ba3c316a1c7fe35ef21897c}
+
+
+Draws the content of the panel. 
+
+
+
+Reimplemented in \hyperlink{class_v_s_e_header_ac866415e77168e78f59965f3a61a0e64}{V\+S\+E\+Header}.
+
+\index{Base\+Editor\+Group@{Base\+Editor\+Group}!Input@{Input}}
+\index{Input@{Input}!Base\+Editor\+Group@{Base\+Editor\+Group}}
+\subsubsection[{\texorpdfstring{Input(\+Scene\+View \+\_\+scene\+View)}{Input(SceneView _sceneView)}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Base\+Editor\+Group.\+Input (
+\begin{DoxyParamCaption}
+\item[{Scene\+View}]{\+\_\+scene\+View}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_base_editor_group_a3cd9cee8a3c93fa0c59ad2dac854f367}{}\label{class_base_editor_group_a3cd9cee8a3c93fa0c59ad2dac854f367}
+
+
+Used for handling keyboard input. 
+
+\index{Base\+Editor\+Group@{Base\+Editor\+Group}!On\+Scene\+UI@{On\+Scene\+UI}}
+\index{On\+Scene\+UI@{On\+Scene\+UI}!Base\+Editor\+Group@{Base\+Editor\+Group}}
+\subsubsection[{\texorpdfstring{On\+Scene\+U\+I(\+Scene\+View \+\_\+scene\+View)}{OnSceneUI(SceneView _sceneView)}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Base\+Editor\+Group.\+On\+Scene\+UI (
+\begin{DoxyParamCaption}
+\item[{Scene\+View}]{\+\_\+scene\+View}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_base_editor_group_a2c80ae4df91e93e3d9a1e8e5ea134d7b}{}\label{class_base_editor_group_a2c80ae4df91e93e3d9a1e8e5ea134d7b}
+
+
+Used for drawing in the scene view. 
+
+\index{Base\+Editor\+Group@{Base\+Editor\+Group}!Remove\+Eventlisteners@{Remove\+Eventlisteners}}
+\index{Remove\+Eventlisteners@{Remove\+Eventlisteners}!Base\+Editor\+Group@{Base\+Editor\+Group}}
+\subsubsection[{\texorpdfstring{Remove\+Eventlisteners(\+Scene\+View \+\_\+sceneview)}{RemoveEventlisteners(SceneView _sceneview)}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Base\+Editor\+Group.\+Remove\+Eventlisteners (
+\begin{DoxyParamCaption}
+\item[{Scene\+View}]{\+\_\+sceneview}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_base_editor_group_ad584907c5813f11cf979fd9fc80c70c8}{}\label{class_base_editor_group_ad584907c5813f11cf979fd9fc80c70c8}
+
+
+Removes the events used in this editor panel. 
+
+
+
+\subsection{Member Data Documentation}
+\index{Base\+Editor\+Group@{Base\+Editor\+Group}!parent\+Window@{parent\+Window}}
+\index{parent\+Window@{parent\+Window}!Base\+Editor\+Group@{Base\+Editor\+Group}}
+\subsubsection[{\texorpdfstring{parent\+Window}{parentWindow}}]{\setlength{\rightskip}{0pt plus 5cm}Editor\+Window Base\+Editor\+Group.\+parent\+Window}\hypertarget{class_base_editor_group_ac811d2797fc68b5c51f34605228f0672}{}\label{class_base_editor_group_ac811d2797fc68b5c51f34605228f0672}
+
+
+The Editor Window this panel is in. 
+
+\index{Base\+Editor\+Group@{Base\+Editor\+Group}!settings\+Object@{settings\+Object}}
+\index{settings\+Object@{settings\+Object}!Base\+Editor\+Group@{Base\+Editor\+Group}}
+\subsubsection[{\texorpdfstring{settings\+Object}{settingsObject}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf V\+M\+E\+Settings\+Object} Base\+Editor\+Group.\+settings\+Object}\hypertarget{class_base_editor_group_a8915a3a49694f1cfea5a17f9e6bccd16}{}\label{class_base_editor_group_a8915a3a49694f1cfea5a17f9e6bccd16}
+
+
+Reference to the Object that holds the editor settings. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Kevin Breurken/\+Documents/\+Projects/\+V\+M\+E/\+Assets/\+V\+M\+E/\+Editor/Base\+Editor\+Group.\+cs\end{DoxyCompactItemize}
